@@ -2,39 +2,81 @@
   <head>
     <title>Bom dia não</title>
   </head>
-  <body>
-<h1>Por favor não diga apenas "bom dia" no chat</h1>
+  <style>
+    * {
+        box-sizing: padding-box;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: "Courier New", "Courier", monospace;
+        font-size: 14px;
+        height: 100%;
+        margin: 0;
+      }
 
-<pre><code>
-2010-07-19 12:32:12 você: Bom dia
+      .container {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: 100%;
+      }
+
+      pre {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        overflow: auto;
+        padding: 10px;
+        color: #444;
+      }
+
+      .content {
+        padding: 20px;
+        overflow: auto;
+      }
+
+      footer {
+        border-top: thin solid #f3f3f3;
+        color: #7a7a7a;
+        background-color: #fafafa;
+        text-align: center;
+        padding: 20px;
+      }
+
+  </style>
+  <body>
+    <div class="container">
+    <div class="content">
+      <h1>Por favor não diga apenas "bom dia" no chat</h1>
+
+      <pre>2010-07-19 12:32:12 você: Bom dia
 2010-07-19 12:32:15 colega: Bom dia.
 ## COLEGA FICA ESPERANDO ENQUANTO VOCÊ FORMULA SUA PERGUNTA
 2010-07-19 12:34:01 você: Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
-2010-07-19 12:35:21 colega: Ah, faz assim: [resposta...]
-</code></pre>
+2010-07-19 12:35:21 colega: Ah, faz assim: [resposta...]</pre>
 
-<p>É como se você ligasse pra alguém, falasse apenas "Oi!" e pedisse pra pessoa esperar!</p>
+      <p>É como se você ligasse pra alguém, falasse apenas "Oi!" e pedisse pra pessoa esperar!</p>
 
-<p>Que tal assim?</p>
-<pre><code>
-2010-07-19 12:32:12 você: Bom dia, eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
-2010-07-19 12:33:32 colega: [responde a pergunta]
-</code></pre>
+      <p>Que tal assim?</p>
+      <pre>2010-07-19 12:32:12 você: Bom dia, eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
+2010-07-19 12:33:32 colega: [responde a pergunta]</pre>
 
-<p>Repare que a resposta vem bem antes, e não faz com que a pessoa tenha que esperar. Pelo contrário, a pessoa pode começar a pensar na sua pergunta imediatamente!</p>
+      <p>Repare que a resposta vem bem antes, e não faz com que a pessoa tenha que esperar. Pelo contrário, a pessoa pode começar a pensar na sua pergunta imediatamente!</p>
 
-<p>Você está tentando ser educado evitando ir direto ao ponto, como você faria no telefone ou pessoalmente. Mas chat não é nenhuma dessas coisas: digitar é muito mais lento do que falar. Ao invés de ser educado, você está fazendo a outra pessoa esperar pela sua pergunta, e todo mundo perde em produtividade.</p>
+      <p>Você está tentando ser educado evitando ir direto ao ponto, como você faria no telefone ou pessoalmente. Mas chat não é nenhuma dessas coisas: digitar é muito mais lento do que falar. Ao invés de ser educado, você está fazendo a outra pessoa esperar pela sua pergunta, e todo mundo perde em produtividade.</p>
 
-<p>Vale a mesma coisa para "Oi, tudo bem?", "Oi fulana --- queria só fazer uma pergunta", "Você tem uns minutos?", "tá aí?" e "ping". Apenas faça a pergunta!"</p>
+      <p>Vale a mesma coisa para "Oi, tudo bem?", "Oi fulana --- queria só fazer uma pergunta", "Você tem uns minutos?", "tá aí?" e "ping". Apenas faça a pergunta!"</p>
 
-<p>Se você acha muito seco simplesmente dizer "Bom dia" e fazer a pergunta, você pode tantar algo assim:</p>
-<pre><code>
-2010-07-19 12:32:12 você: Bom dia! Se você não estiver muito ocupada, eu queria fazer uma pergunta. Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
-</code></pre>
+      <p>Se você acha muito seco simplesmente dizer "Bom dia" e fazer a pergunta, você pode tantar algo assim:</p>
+      <pre>2010-07-19 12:32:12 você: Bom dia! Se você não estiver muito ocupada, eu queria fazer uma pergunta. Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?</pre>
 
-<p>Além disso, fazer a sua pergunta de cara permite uma comunicação assíncrona. Se a outra pessoa não estiver disponível, e você sair antes dela voltar, a pessoa ainda pode responder sua pergunta, ao invés de só ficar olhando para aquele "bom dia" e imaginando o que foi que ela perdeu.</p>
+      <p>Além disso, fazer a sua pergunta de cara permite uma comunicação assíncrona. Se a outra pessoa não estiver disponível, e você sair antes dela voltar, a pessoa ainda pode responder sua pergunta, ao invés de só ficar olhando para aquele "bom dia" e imaginando o que foi que ela perdeu.</p>
 
-<p>Link curto para essa página https://bomdianao.com.br (Se você vir isso no status de alguém, prepare-se para ter uma mensagem somente com "bom dia" ignorada)</p>
-
+      <p>Link curto para essa página <a href="https://bomdianao.com.br">https://bomdianao.com.br</a> (Se você vir isso no status de alguém, prepare-se para ter uma mensagem somente com "bom dia" ignorada)</p>
+    </div>
+    <footer>
+      &lt;/&gt; disponível no <a href="https://github.com/felipesabino/bomdianao">Github</a>
+    </footer>
+  </div>
   </body>
 </html>
