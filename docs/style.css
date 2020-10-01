@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Roboto Mono", sans-serif, monospace;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    overflow-y: scroll;
+    padding: 10px 20px;
+}
+
+.content p {
+    font-size: 1rem;
+    font-family: "Roboto Mono", sans-serif, monospace;
+}
+
+footer {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    border-top: thin solid #b9b9b9;
+    color: #3b3b3b;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.chat {
+    display: inline-block;
+    background-color: #E0EAF4;
+    border: 1px solid #9cceff;
+    color: #316000;
+    overflow-x: scroll;
+    padding: 10px;
+    width: calc(100% - 20px);
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 0.95rem;
+}
+
+a {
+    color: blue !important;
+    text-decoration: none;
+    font-weight: bold;
+}
