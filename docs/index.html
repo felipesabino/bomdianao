@@ -1,81 +1,47 @@
 <html>
-  <head>
-    <title>Bom dia não</title>
-  </head>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Courier New", "Courier", monospace;
-      font-size: 14px;
-      overflow: hidden;
-    }
+	<head>
+		<title>Bom dia não</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+  	<body>
+		<div class="container">
+			<div class="content">
+				<h1>Por favor não diga apenas "bom dia" no chat</h1>
 
-    .container {
-      display: grid;
-      grid-template-rows: 1fr 50px;
-      width: 100%;
-      height: 100vh;
-    }
+				<div class="chat">
+					2010-07-19 12:32:12 Você: Bom dia<br>
+					2010-07-19 12:32:15 Colega: Bom dia.<br>
+					## COLEGA FICA ESPERANDO ENQUANTO VOCÊ FORMULA SUA PERGUNTA<br>
+					2010-07-19 12:34:01 Você: Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?<br>
+					2010-07-19 12:35:21 Colega: Ah, faz assim: [resposta...]
+				</div>
 
-    .content {
-      overflow-y: scroll;
-      padding: 10px 20px 0;
-    }
+				<p>É como se você ligasse pra alguém, falasse apenas "Oi!" e pedisse pra pessoa esperar!</p>
 
-    footer {
-      width: 100%;
-      justify-self: center;
-      align-self: center;
-      border-top: thin solid #f3f3f3;
-      color: #7a7a7a;
-      background-color: #fafafa;
-      text-align: center;
-      padding: 10px;
-    }
+				<p>Que tal assim?</p>
+				<div class="chat">
+					2010-07-19 12:32:12 Você: Bom dia, eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]? <br>
+					2010-07-19 12:33:32 Colega: [responde a pergunta]
+				</div>
 
-    pre {
-      background-color: #eee;
-      border: 1px solid #ccc;
-      color: #444;
-      overflow-x: scroll;
-      padding: 10px;
-    }
+				<p>Repare que a resposta vem bem antes, e não faz com que a pessoa tenha que esperar. Pelo contrário, a pessoa pode começar a pensar na sua pergunta imediatamente!</p>
 
-  </style>
-  <body>
-    <div class="container">
-    <div class="content">
-      <h1>Por favor não diga apenas "bom dia" no chat</h1>
+				<p>Você está tentando ser educado evitando ir direto ao ponto, como você faria no telefone ou pessoalmente. Mas chat não é nenhuma dessas coisas: digitar é muito mais lento do que falar. Ao invés de ser educado, você está fazendo a outra pessoa esperar pela sua pergunta, e todo mundo perde em produtividade.</p>
 
-      <pre>2010-07-19 12:32:12 você: Bom dia
-2010-07-19 12:32:15 colega: Bom dia.
-## COLEGA FICA ESPERANDO ENQUANTO VOCÊ FORMULA SUA PERGUNTA
-2010-07-19 12:34:01 você: Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
-2010-07-19 12:35:21 colega: Ah, faz assim: [resposta...]</pre>
+				<p>Vale a mesma coisa para "Oi, tudo bem?", "Oi fulana --- queria só fazer uma pergunta", "Você tem uns minutos?", "tá aí?" e "ping". Apenas faça a pergunta!"</p>
 
-      <p>É como se você ligasse pra alguém, falasse apenas "Oi!" e pedisse pra pessoa esperar!</p>
+				<p>Se você acha muito seco simplesmente dizer "Bom dia" e fazer a pergunta, você pode tantar algo assim:</p>
+				<div class="chat">
+					2010-07-19 12:32:12 Você: Bom dia! Se você não estiver muito ocupada, eu queria fazer uma pergunta. Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
+				</div>
 
-      <p>Que tal assim?</p>
-      <pre>2010-07-19 12:32:12 você: Bom dia, eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?
-2010-07-19 12:33:32 colega: [responde a pergunta]</pre>
+				<p>Além disso, fazer a sua pergunta de cara permite uma comunicação assíncrona. Se a outra pessoa não estiver disponível, e você sair antes dela voltar, a pessoa ainda pode responder sua pergunta, ao invés de só ficar olhando para aquele "bom dia" e imaginando o que foi que ela perdeu.</p>
 
-      <p>Repare que a resposta vem bem antes, e não faz com que a pessoa tenha que esperar. Pelo contrário, a pessoa pode começar a pensar na sua pergunta imediatamente!</p>
-
-      <p>Você está tentando ser educado evitando ir direto ao ponto, como você faria no telefone ou pessoalmente. Mas chat não é nenhuma dessas coisas: digitar é muito mais lento do que falar. Ao invés de ser educado, você está fazendo a outra pessoa esperar pela sua pergunta, e todo mundo perde em produtividade.</p>
-
-      <p>Vale a mesma coisa para "Oi, tudo bem?", "Oi fulana --- queria só fazer uma pergunta", "Você tem uns minutos?", "tá aí?" e "ping". Apenas faça a pergunta!"</p>
-
-      <p>Se você acha muito seco simplesmente dizer "Bom dia" e fazer a pergunta, você pode tantar algo assim:</p>
-      <pre>2010-07-19 12:32:12 você: Bom dia! Se você não estiver muito ocupada, eu queria fazer uma pergunta. Eu estou trabalhando em [tal coisa]. Você sabe como fazer [etc]?</pre>
-
-      <p>Além disso, fazer a sua pergunta de cara permite uma comunicação assíncrona. Se a outra pessoa não estiver disponível, e você sair antes dela voltar, a pessoa ainda pode responder sua pergunta, ao invés de só ficar olhando para aquele "bom dia" e imaginando o que foi que ela perdeu.</p>
-
-      <p>Link curto para essa página <a href="https://bomdianao.com.br">https://bomdianao.com.br</a> (Se você vir isso no status de alguém, prepare-se para ter uma mensagem somente com "bom dia" ignorada)</p>
-    </div>
-    <footer>
-      &lt;/&gt; disponível no <a href="https://github.com/felipesabino/bomdianao">Github</a> - adaptação em português do <a href="https://nohello.com">https://nohello.com</a> :)
-    </footer>
-  </div>
-  </body>
+				<p>Link curto para essa página <a href="https://bomdianao.com.br" target="_blank">https://bomdianao.com.br</a> (Se você vir isso no status de alguém, prepare-se para ter uma mensagem somente com "bom dia" ignorada)</p>
+			</div>
+			<footer>
+				&lt;/&gt; disponível no <a href="https://github.com/felipesabino/bomdianao" target="_blank">Github</a> - adaptação em português do <a href="https://nohello.com">https://nohello.com</a> :)
+			</footer>
+		</div>
+  	</body>
 </html>
