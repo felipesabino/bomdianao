@@ -41,6 +41,9 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
 }
 
 .chat {
@@ -58,4 +61,10 @@ a {
     color: blue !important;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        padding: 5px;
+    }
 }
