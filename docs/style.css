@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Courier New", "Courier", monospace;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
 }
 
@@ -48,11 +48,9 @@ footer {
     background-color: #E0EAF4;
     border: 1px solid #9cceff;
     color: #316000;
-    overflow-x: scroll;
     padding: 10px;
     width: calc(100% - 20px);
     font-weight: 600;
-    white-space: nowrap;
     font-size: 0.95rem;
 }
 
